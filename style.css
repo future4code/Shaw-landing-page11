@@ -4,6 +4,134 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+}
+
+.main {
+    background-color: rgba(240, 248, 255, 0.438);
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.acesso-rapido {
+    background-color: rgba(193, 199, 204, 0.308);
+    padding: 1%;
+    display: flex ;
+    justify-content: space-between;
+    margin: 1%;
+    font-weight: none;
+    color: rgb(0, 0, 0)
+}
+.acesso-rapido p {
+    background-color: rgb(250, 234, 234);
+    border-radius: 10%;
+}
+
+.container-card-desktop p {
+    font-weight: bold 
+}
+.container-card p {
+    font-weight: bold
+ }
+
+input {
+    justify-content: space-between;
+    margin: 1%;
+    padding: 1%;;
+    width: 80%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 3px;}
+
+.container-title {
+    background-color: rgba(255, 251, 240, 0.699);
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2% 0% 2%;
+}
+.container-title h3{
+    color: rgb(199, 13, 13);
+}
+.container-title h3:hover{
+    color: rgb(238, 147, 28);
+}
+
+.container {
+    display: flex;
+}
+.container-card {
+    border-style:solid;
+    border-radius: 1%;
+    border-color: rgba(240, 248, 255, 0.205);
+    margin: 1.01% ;
+    width: 100%;
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.075);
+}
+.container-card-desktop {
+    border-style:solid;
+    border-radius: 1%;
+    border-color: rgba(240, 248, 255, 0.205);
+    margin: 1.01% ;
+    width: 100%;
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.075);
+}
+
+.container-card-desktop img {
+    width: 100%;
+
+}
+.container-card img {
+    width:100%;
+
+}
+.card-text {
+    padding: 0% 0% 0% 1%;
+    font-size: 1.5vw;
+}
+ 
+
+
+@media screen and (max-width: 850px) {
+
+.main {
+    margin-left: 2%;
+    margin-right: 2%;
+}    
+    
+.container-title {
+    background-color: rgba(240, 248, 255, 0.438);
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.container-title h3{
+    color: rgb(199, 13, 13);
+}
+
+.container {
+    display: flex;
+}
+.container-card {
+    border-style:ridge;
+    border-radius: 1%;
+    border-color: rgba(240, 248, 255, 0.205);
+    margin: 1% ;
+}
+
+.container-card-desktop {
+    display: none;
+
+}
+
+.container-card img {
+    width: 100%;
+}
+.card-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 0% 0% 10%;
+    font-size: 3vw;
+}
 
 .corpo {
   display: flex;
