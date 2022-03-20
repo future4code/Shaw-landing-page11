@@ -1,6 +1,6 @@
 # landing-page-template
 
-LINK DO SURGE: obsequious-jail.surge.sh
+LINK DO SURGE: http://sophisticated-zebra.surge.sh/
 
 DESENVOLVIDO PELA LÓGICA MOBILE FIRST.
 
