@@ -153,8 +153,10 @@ article h2 {
   margin: 1%;
   font-weight: none;
 }
-.acesso-rapido p {
+
+.acesso-rapido a {
   color: rgb(90, 15, 15);
+  text-decoration: none;
 }
 
 .container-card-desktop p {
