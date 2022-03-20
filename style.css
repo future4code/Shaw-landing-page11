@@ -6,6 +6,7 @@
 }
 main {
   background-color: #ebebeb81;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS"
 }
 
 .container-principal {
@@ -141,6 +142,7 @@ article h2 {
   background-color: rgba(240, 248, 255, 0.438);
   margin-left: 5vh;
   margin-right: 5vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS"
 }
 
 .acesso-rapido {
