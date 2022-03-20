@@ -324,7 +324,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 5%;
+    padding: 5% 5% 5px 5%;
     list-style-position: inside;
     justify-content: space-between;
   }
