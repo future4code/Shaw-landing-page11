@@ -183,6 +183,11 @@ input {
   justify-content: space-between;
   padding: 1% 2% 0% 2%;
 }
+
+.container-title h2{
+  color: brown;
+}
+
 .container-title h3 {
   color: rgb(199, 13, 13);
 }
