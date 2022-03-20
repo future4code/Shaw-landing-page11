@@ -149,14 +149,12 @@ article h2 {
   background-color: rgba(193, 199, 204, 0.308);
   padding: 1%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 1%;
   font-weight: none;
-  color: rgb(0, 0, 0);
 }
 .acesso-rapido p {
-  background-color: rgb(250, 234, 234);
-  border-radius: 10%;
+  color: rgb(90, 15, 15);
 }
 
 .container-card-desktop p {
