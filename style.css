@@ -6,6 +6,7 @@
 }
 main {
   background-color: #ebebeb81;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS"
 }
 
 .container-principal {
@@ -141,20 +142,21 @@ article h2 {
   background-color: rgba(240, 248, 255, 0.438);
   margin-left: 5vh;
   margin-right: 5vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS"
 }
 
 .acesso-rapido {
   background-color: rgba(193, 199, 204, 0.308);
   padding: 1%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 1%;
   font-weight: none;
-  color: rgb(0, 0, 0);
 }
-.acesso-rapido p {
-  background-color: rgb(250, 234, 234);
-  border-radius: 10%;
+
+.acesso-rapido a {
+  color: rgb(90, 15, 15);
+  text-decoration: none;
 }
 
 .container-card-desktop p {
@@ -181,6 +183,11 @@ input {
   justify-content: space-between;
   padding: 1% 2% 0% 2%;
 }
+
+.container-title h2{
+  color: brown;
+}
+
 .container-title h3 {
   color: rgb(199, 13, 13);
 }
